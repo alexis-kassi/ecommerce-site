@@ -15,6 +15,6 @@ Ce site permet de :
 - CSS
 - JavaScript
 
-## Organisation du projet
+
 
 
