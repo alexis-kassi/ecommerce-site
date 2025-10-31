@@ -1,0 +1,612 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 9px 8px 0px rgba(0,0,0,0.1);
+}
+
+.logo_site {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+
+.logo_site img {
+    height: 40px;
+    top: 30px;
+}
+
+.logo_site span {
+    color: rgb(202, 202, 37);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    margin: 50px;
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.212);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    transform: scale(1.2);
+}
+
+.composant_accueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(202, 202, 37, 0.137), rgba(201, 201, 37, 0.315));
+    height: 440px;
+}
+
+.texte_composant {
+    position: relative;
+    left: -3%;
+}
+
+.texte_composant h1 {
+    font-size: 30px;
+}
+
+.texte_composant p {
+    color: gray;
+    font-size: 15px;
+}
+
+.btn_texte_composant {
+    padding: 7px 50px;
+}
+
+.image_composant img {
+    height: 350px;
+    width: 700px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+}
+
+.btn_texte_composant {
+    background-color: rgb(202, 202, 37);
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.btn_texte_composant:hover {
+    background-color:  rgb(219, 219, 28);
+}
+
+.composant_produits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgba(224, 221, 221, 0.247);
+}
+
+.texte_et_produits h1 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+}
+
+.texte_et_produits p {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.classe_produits {
+    margin: 60px;
+}
+.classe_produits p{
+   margin-bottom: 60px;
+}
+
+.classe_produits img {
+   height: 320px;
+   border-radius: 5px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.classe_produits img:hover {
+    transform: translateY(-10px);
+    filter: contrast(1.2);
+}
+
+.classe_produits h2 {
+    text-align: center;
+}
+
+.btn_panier {
+    padding: 7px 35px;
+    position: relative;
+    left: 36px;
+    background-color:  rgb(202, 202, 37);
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn_panier:hover {
+    background-color: rgb(219, 219, 30);
+}
+
+.classe_produits i {
+    color: orange;
+    font-size: 15px;
+    position: relative;
+    left: 65px;
+    top: 20px;
+}
+
+.composant_produits_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgba(224, 221, 221, 0.226);
+}
+
+.categorie_sac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgba(224, 221, 221, 0.247); 
+}
+
+.classe_produit {
+    margin: 80px;
+}
+
+.classe_produit p {
+    text-align: center;
+}
+
+.classe_produit h2 {
+    text-align: center;
+}
+
+.classe_produit i {
+    color: orange;
+    position: relative;
+    left: 65px;
+}
+
+.btn_panier_3 {
+    padding: 7px 35px;
+    position: relative;
+    left: 36px;
+    background-color:  rgb(202, 202, 37);
+    border: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn_panier_3:hover {
+    background-color: rgb(219, 219, 30);
+}
+
+.classe_produit img {
+    height: 300px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.classe_produit img:hover {
+    transform: translateY(-10px);
+    filter: contrast(1.2);
+}
+
+.Descriptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.images_description {
+    border: 0px solid black;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: -20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(Images\ site\ ecommerce/vet32.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: animation_image_description infinite 15s;
+}
+
+.images_description p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+}
+
+.images_description span {
+    text-transform: uppercase;
+    color: yellow;
+    font-style: italic;
+}
+
+@keyframes animation_image_description {
+    00% {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(Images\ site\ ecommerce/vet32.jpg);
+      background-position: center;
+      background-size: cover; 
+    }
+    50% {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(Images\ site\ ecommerce/vet48.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    100% {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(Images\ site\ ecommerce/sac5.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+}
+
+.texte_description {
+    position: relative;
+    left: 30px;
+}
+.texte_description h1 {
+    font-size: 30px;
+}
+
+.texte_description p {
+    color: gray;
+    font-size: 16px;
+}
+
+.btn_description {
+    padding: 7px 50px;
+    background-color: rgb(202, 202, 37);
+    margin-top: 25px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_description:hover {
+    background-color: rgba(255, 255, 0, 0.795);
+}
+
+.nos_informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 12px;
+    margin-top: 100px;
+}
+
+.informations {
+    color: white;
+    position: relative;
+    left: -150px;
+}
+
+.information {
+    color: white;
+    position: relative;
+    left: -45px;
+}
+
+.infos_1 {
+    position: relative;
+    left: 70px;
+    color: white;
+}
+
+.infos_1 a {
+    color: gray;
+}
+
+.infos_2 {
+    color: white;
+    position: relative;
+    left: 150px;
+}
+
+.inscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre_page {
+    text-align: center;
+    font-size: 30px;
+}
+
+.formulaire {
+    position: relative;
+    left: -50px;
+}
+
+input {
+    height: 24px;
+    width: 300px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btn_envoyer {
+    padding: 5px 40px;
+    background-color: green;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.btn_accueil {
+    padding: 5px 40px;
+    background-color: green;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px; 
+    margin-top: 15px;
+}
+
+.btn_accueil a {
+    color: white;
+    text-decoration: none;
+}
+
+.image img {
+    border-radius: 10px;
+    position: relative;
+    left: 15px;
+    object-fit: cover;
+}
+
+#resultat_inscription {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+
+/* ===========================
+   VERSION MOBILE (max-width: 480px)
+=========================== */
+@media screen and (max-width: 480px) {
+
+  /* --- HEADER / NAVIGATION --- */
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .logo_site {
+    left: 0;
+    font-size: 18px;
+  }
+
+  .logo_site img {
+    height: 35px;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  ul li a {
+    margin: 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  /* --- SECTION ACCUEIL --- */
+  .composant_accueil {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .texte_composant {
+    left: 0;
+    margin-bottom: 15px;
+  }
+
+  .texte_composant h1 {
+    font-size: 24px;
+  }
+
+  .texte_composant p {
+    font-size: 14px;
+  }
+
+  .image_composant img {
+    width: 100%;
+    height: auto;
+    left: 0;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  /* --- PRODUITS --- */
+  .composant_produits,
+  .composant_produits_2,
+  .categorie_sac {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .classe_produits,
+  .classe_produit {
+    width: 90%;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .classe_produits img,
+  .classe_produit img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn_panier,
+  .btn_panier_3 {
+    position: static;
+    margin-top: 10px;
+  }
+
+  /* --- CENTRER LES ÉTOILES --- */
+  .classe_produits i,
+  .classe_produit i {
+    position: static;
+    display: inline-block;
+    margin: 6px 4px;
+    vertical-align: middle;
+    color: orange;
+    font-size: 15px;
+  }
+
+  /* --- DESCRIPTION --- */
+  .Descriptions {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .images_description {
+    width: 100%;
+    height: 250px;
+    left: 0;
+    margin-bottom: 15px;
+  }
+
+  .texte_description {
+    left: 0;
+  }
+
+  .texte_description h1 {
+    font-size: 22px;
+  }
+
+  .texte_description p {
+    font-size: 14px;
+  }
+
+  /* --- FOOTER --- */
+  .nos_informations {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .informations,
+  .information,
+  .infos_1,
+  .infos_2 {
+    position: static;
+    left: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .nos_informations h2,
+  .nos_informations h3,
+  .nos_informations p {
+    font-size: 14px;
+  }
+
+  /* --- PAGE D'INSCRIPTION --- */
+  .inscription {
+    flex-direction: column;     /* Formulaire au-dessus de l’image */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .titre_page {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .formulaire {
+    position: static;
+    width: 100%;
+  }
+
+  input {
+    width: 90%;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .btn_envoyer,
+  .btn_accueil {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .btn_accueil a {
+    font-size: 16px;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  #resultat_inscription {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
